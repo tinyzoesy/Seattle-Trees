@@ -1,0 +1,36 @@
+{
+  "name": "use-mapbox-gl-js-with-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "mapbox-gl": "^2.13.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11"
+  ],
+  "author": "Mapbox",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "https://tinyzoesy.github.io/Seattle-Trees-and-Flowers"
+}

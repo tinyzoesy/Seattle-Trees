@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Dosis";
+  src: url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&display=swap");
+  font-weight: regular;
+  font-display: swap;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+}
+
+.map-container {
+  height: 800px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.sidebar {
+  font-weight: 400;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.flower-icon {
+  background: url("flower_icon.png") no-repeat;
+}
+
+.filter-wrapper {
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+  z-index: 2;
+}
+
+.sidebar {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+
+.filter-container {
+  position: relative;
+  z-index: 2;
+
+  background-color: #f3ffed;
+  height: 100px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  min-width: 200px;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.filter-body {
+  padding: 24px;
+}
+
+.relative-container {
+  position: relative;
+  margin-top: 24px;
+  width: fit-content;
+}
+
+div .filter-title {
+  color: #6f924b;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+.scientific-name {
+  color: #6f924b;
+  padding-bottom: 8px;
+  font-size: 14px;
+  display: inline;
+}
+
+.scientific-name-title {
+  color: #b5c2a9;
+  padding-bottom: 12px;
+  font-size: 14px;
+  display: inline;
+}
+
+.hide-container {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #6f924b;
+  background-color: transparent;
+  border: transparent;
+}
+
+.option-icon {
+  width: 10px;
+  height: 10px;
+  display: inline;
+}
+
+.option-text {
+  display: inline;
+  padding-left: 8px;
+  font-weight: 400;
+}
+
+.option {
+  padding-top: 8px;
+  padding-bottom: 8px
+}
+
+.icon-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  width: 56px;
+  height: 56px;
+}
+
+.icon-button .option-icon{
+  width: 36px;
+  height: 36px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 12px;
+  margin-top:12px;
+  margin-right:12px;
+  width: 12px;
+  height: 12px;
+}
